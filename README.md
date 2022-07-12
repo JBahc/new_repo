@@ -49,5 +49,33 @@
 ~~전시문화공연은 진짜 구지지만~~ 
 
 - 소스코드 한 줄만 삽입해보기 : backquote 써주라는데 나는 원화사인으로 나오는데
+- 일단 옵션키 누르고 하면 된다
+- *https://gyong1211.github.io/mac/mac_backquote.html*
 
-₩int outcoinCal = coinCal(coinCalInput, coinCal1);₩
+`int outcoinCal = coinCal(coinCalInput, coinCal1);`
+```		int coinCalInput = 4850;
+		int coinCal1 = 1000;
+		int coinCal2 = 500;
+		int coinCal3 = 100;
+		int coinCal4 = 10;
+		int outcoinCal = coinCal(coinCalInput, coinCal1);
+		int outcoinCal2 = coinCal2(outcoinCal, coinCal2);
+		int outcoinCal3 = coinCal3(outcoinCal2, coinCal3);
+		int outcoinCal4 = coinCal4(outcoinCal3, coinCal4);
+		System.out.println(coinCalInput+"을 계산합니다\n"
+				+ "1천원권 " 
+				+ outcoinCal + "장,\n"
+				+ "5백원권 "
+				+ outcoinCal2 + "개,\n"
+				+ "100원권 "
+				+ outcoinCal3 + "개,\n"
+				+ "10원권 "
+				+ outcoinCal4 + "개 입니다.");
+ ```
+
+
+<http://www.google.com>
+
+[구글](google.com)
+
+[구글이다](http://www.google.com, "아주 돈이 많은 놈들이지")
